@@ -6,5 +6,8 @@
     "files.watcherExclude": {
         "**/dist/**": true
     },
+    "files.associations": {
+        ".cspell.json": "jsonc"
+    },
     "typescript.tsdk": "node_modules\\typescript\\lib"
 }
