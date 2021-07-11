@@ -17,6 +17,7 @@ const config: NuxtConfig = {
         link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     },
     loading: false,
+    css: ['~/assets/style/index.scss'],
     components: [
         { path: '~/components', extensions: ['vue'], pathPrefix: false },
     ],
@@ -35,6 +36,14 @@ const config: NuxtConfig = {
     plugins: [],
     build: {
         extractCSS: !dev,
+        postcss: {
+            preset: {
+                autoprefixer: {},
+                features: {
+                    'custom-properties': false,
+                },
+            },
+        },
     },
 };
 
