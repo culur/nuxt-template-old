@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nuxt Template - Project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/culur/nuxt-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/culur/nuxt-template/issues"
+  },
+  "homepage": "https://github.com/culur/nuxt-template#readme",
+  "author": "phamhongphuc <phamhongphuc.info@gmail.com>",
+  "scripts": {},
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
