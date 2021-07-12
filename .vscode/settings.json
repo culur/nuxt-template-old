@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.nuxt": true,
+        "**/yarn-error.log": true
+    },
+    "files.watcherExclude": {
+        "**/dist/**": true
+    },
+    "files.associations": {
+        ".cspell.json": "jsonc"
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}

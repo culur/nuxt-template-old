@@ -1,0 +1,13 @@
+# Dependency directories
+bower_components
+node_modules
+jspm_packages
+
+# Build
+dist
+build
+
+# Coverage
+lib-cov
+coverage
+.nyc_output
