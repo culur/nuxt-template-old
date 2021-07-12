@@ -13,6 +13,10 @@
   "homepage": "https://github.com/culur/nuxt-template#readme",
   "author": "phamhongphuc <phamhongphuc.info@gmail.com>",
   "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier . --write",
     "fix:stylelint": "stylelint **/*.{vue,tsx,pcss,css,scss} --fix",
@@ -25,14 +29,31 @@
   "engines": {
     "node": ">=14"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.24.6",
+    "nuxt": "^2.15.7"
+  },
   "devDependencies": {
     "@culur/prettier-config": "^0.2.0",
     "@culur/stylelint-config": "^0.2.0",
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/tailwindcss": "4.2.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "@types/node": "^16.0.0",
+    "@types/tailwindcss": "^2.2.1",
+    "core-js": "^3.15.2",
     "cspell": "^5.6.6",
     "markdownlint-cli": "^0.27.1",
     "npm-run-all": "^4.1.5",
+    "nuxt-vite": "0.1.0",
+    "postcss": "^8.3.5",
     "prettier": "^2.3.2",
-    "stylelint": "^13.13.1"
+    "sass": "^1.35.2",
+    "sass-loader": "^10.2.0",
+    "stylelint": "^13.13.1",
+    "ts-loader": "^8.3.0",
+    "typescript": "^4.3.5"
   }
 }

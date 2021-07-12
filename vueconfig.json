@@ -1,0 +1,16 @@
+{
+    "globalComponents": ["**/components/**/*.vue"],
+    "preferences": {
+        "style": {},
+        "componentsDirectories": ["src/components"],
+        "script": {
+            "mode": "setup",
+            "language": "ts"
+        },
+        "template": {
+            "directiveSyntax": "shorthand",
+            "tagCase": "kebab",
+            "propCase": "kebab"
+        }
+    }
+}
