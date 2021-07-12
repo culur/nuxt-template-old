@@ -21,11 +21,16 @@ const config: NuxtConfig = {
     components: [
         { path: '~/components', extensions: ['vue'], pathPrefix: false },
     ],
+    tailwindcss: {
+        configPath: '~/tailwind.config.ts',
+        cssPath: false,
+    },
     modules: [],
     buildModules: [
         'nuxt-vite',
         '@nuxt/typescript-build',
         '@nuxtjs/composition-api/module',
+        '@nuxtjs/tailwindcss',
     ],
     vite: {
         server: {
